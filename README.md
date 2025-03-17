@@ -6,7 +6,8 @@ $ python3 all_local.py
 Anzahl der Wörter: 2614
 Ausführungsdauer: 0.000607 Sekunden
 ```
-# HTTP-Request
+# HTTP-Request on localhost
+The program is splitted in a client (reading file and sending to server) and a server (counting the words in a line and sending back the integer number). It is just running on localhost using HTTP to communicate between client and server.
 Open in first terminal 
 ```
 $ python3 server.py
