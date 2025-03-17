@@ -6,6 +6,7 @@ def read_file_line_by_line(filename):
     with open(filename, 'r', encoding='utf-8') as file:
         for line in file:
             total_words += count_words(line)
+    return total_words
 
 
 def count_words(line):
