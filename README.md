@@ -17,10 +17,10 @@ In the second terminal the client:
 ```
 $ python3 client.py 
 Anzahl der Wörter: 2614
-Ausführungsdauer: 8.087693 Sekunden
+Ausführungsdauer: 4.718318 Sekunden
 ```
 # Factor
 
-8.087693/0.000607 = about 13.000
+4.718318/0.000607 = about 7773
 
-Remote function call is about *13.000* slower under this setup!
+Remote function call is about *8.000* slower under this setup!
